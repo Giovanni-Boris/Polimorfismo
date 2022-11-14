@@ -9,7 +9,7 @@ Class {
 
 { #category : #announcement }
 Animal >> hablar [
-	Transcript show: 'Soy un animal';cr
+	^ 'Animal'
 ]
 
 { #category : #accessing }

@@ -9,13 +9,18 @@ Class {
 
 { #category : #announcement }
 Perro >> hablar [ 
-	Transcript show:'Soy un perro ';cr
+	^ 'Perro'
 ]
 
 { #category : #accessing }
 Perro >> kilosComer: anInteger [
 	'3 VECES al dia por'.
 	^ anInteger * 3
+]
+
+{ #category : #accessing }
+Perro >> magic: anInteger [
+	^ 4 * anInteger
 ]
 
 { #category : #announcement }

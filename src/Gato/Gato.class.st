@@ -6,7 +6,7 @@ Class {
 
 { #category : #announcement }
 Gato >> hablar [ 
-	Transcript show:'Soy un gato ';cr
+	^ 'Gato'
 ]
 
 { #category : #accessing }
